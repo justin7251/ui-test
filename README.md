@@ -1,6 +1,6 @@
 # Simple Front-End UI Test
 
-This test has been designed with three simple tasks to assess basic UI development experience.
+The design of the web page is according to the design layout. I have made the webpage responsive and used the Chrome Dev tool to check the responsiveness. I have used the JQuery UI plugin for modal windows. I've built the modal by using the click function to find the element content to populate the relevant item information to display.
 
 ## Requirements
 
