@@ -1,0 +1,207 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #fff7e6;
+}
+.header {
+    background-color: #ffbb36;
+    padding-left: 12px;
+    padding-right: 16px;
+}
+.container {
+    position: relative;
+    width: 100%;
+}
+.h-80 {
+    height: 80px;
+}
+.h-60 {
+    height: 60px;
+}
+.w-100 {
+    width: 100%;
+}
+.cut_circle {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 65px;
+    width: 100px;
+    border-radius: 150px 150px 0 0;
+    background-color: #fff7e6;
+}
+.Branding span {
+    float:left;
+    vertical-align: middle;
+    font-size: 24px;
+    color:#fff7e6;
+    padding: 25px 30px;
+    text-shadow: 2px 2px 2px rgba(43, 31, 13, 45%);
+    font-weight: bold;
+}
+.Slogun span {
+    float:right;
+    vertical-align: middle;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 25px 30px;
+    text-shadow: 2px 2px 2px rgba(43, 31, 13, 10%);
+}
+.main {
+    padding: 50px 150px;
+}
+.logo img {
+    width: 100px;
+}
+.banner {
+    margin: 40px 80px;
+}
+.banner h2 {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+.banner  h2:before, h2:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid #eee7d7;
+    margin: auto;
+}
+.banner h2:before {
+    margin-right: 40px
+}
+.banner  h2:after {
+    margin-left: 40px
+}
+
+.banner h2 span {
+    color: #78746c;
+    font-weight: 200; 
+}
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.3rem;
+    padding: 0px;
+    margin: 20px 30px;
+}
+.card-img {
+    padding: 0 35px;
+    margin: 15px;
+}
+.card-img img {
+    width: 150px;
+}
+.flex {
+    display: flex;
+}
+.description_text {
+    flex: 2;
+    margin-top: 20px;
+}
+.price_tag {
+    flex: 1;
+}
+.tag {
+    float: right;
+    margin: 20px 0;
+    padding: 5px 27px 5px 40px;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 12% 100%);
+    background-color: #8ccc4e;
+}
+.tag span {
+    color:#ffffff;
+    font-weight: bold;
+    font-size: 20px;
+}
+.t-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+}
+.t-location {
+    padding: 0 5px;
+    color: #949494;
+}
+.item_description {
+    padding: 10px;
+    color: #767676;
+}
+#buy_now {
+    border: 1px solid transparent;
+    width: 100%;
+    background-color: #3c82f5;
+    border-radius: 5px; 
+    padding: 5px;
+    margin: 5px;
+    color: #fff;
+}
+.dialog_body img {
+    width: 80%;
+    margin: auto;
+    display: block;
+}
+.dialog_body span {
+    margin: 2px;
+}
+.ui-widget-header {
+    background-color: inherit;
+    border: 0px;
+}
+.ui-dialog-titlebar-close {
+    background-color: inherit;
+    border: 0px;
+}
+.ui-dialog-titlebar-close:hover {
+    background-color: inherit;
+    border: 0px;
+}
+.float-right {
+    float:right
+}
+
+@media only screen and (max-width: 800px) {
+    .Slogun span {
+        display: none;
+    }
+    .Branding span {
+        padding: 24px 10px;
+    }
+    .t-location {
+        display: inline-block;
+    }
+    .banner {
+        margin: 40px 0px;
+    }
+    .main {
+        margin: 0px;
+        padding: 5px;
+    }
+    .card {
+        margin: 5px;
+    }
+    .card-img {
+        margin: 5px;
+        padding: 5px;
+    }
+    .tag {
+        padding: 0 16px;
+        margin: 0px;
+    }
+    .tag span {
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    .item_description {
+        padding: 5px;
+    }
+}

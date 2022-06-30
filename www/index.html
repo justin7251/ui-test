@@ -2,13 +2,92 @@
     <head>
         <title>IndeFruit</title>
         <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
         <link type='text/css' rel='stylesheet' href='css/fonts.css'>
         <link type='text/css' rel='stylesheet' href='css/style.css'>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
         <script type='text/javascript' src='js/script.js'></script>
     </head>
     <body>
-
-
-
+        <header class="header">
+            <div class="container h-80">
+                <div class="Branding">
+                    <span>IndeFruit</span>
+                </div>
+                <div class="cut_circle">
+                    <div class="logo">
+                        <img src="../www/img/logo.png"/>
+                    </div>
+                </div>
+                <div class="Slogun">
+                    <span>Only The Best For Summer</span>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="banner">
+                <h2><span>TOP FRUITS</span></h2>
+            </div>
+            <div>
+                <div class="card">
+                    <div class="card-img"><img src="../www/img/mangoes.png"></div>
+                    <div class="w-100">
+                        <div class="flex h-60">
+                            <div class="description_text">
+                                <span class="t-title">Mangoes</span><span class="t-location">from India</span>
+                            </div>
+                            <div class="price_tag"><div class="tag"><span>£0.50 each</span></div></div>
+                        </div>
+                        <div class="item_description">
+                            A mango is a juicy stone fruit (drupe) produced from numerous species of tropical trees
+                            belonging to the flowering plant genus Mangifera, cultivated mostly for their edible fruit.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img"><img src="../www/img/strawberries.png"></div>
+                    <div class="w-100">
+                        <div class="flex h-60">
+                            <div class="description_text">
+                                <span class="t-title">Strawberries</span><span class="t-location">from Spain</span>
+                            </div>
+                            <div class="price_tag"><div class="tag"><span>£0.20 each</span></div></div>
+                        </div>
+                        <div class="item_description">
+                            This fruit is widely appreciated for its characteristic aroma, bright red color, juicy texture,
+                            and sweetness. It is consumed in large quantities and popular in jam, juice, pies & ice cream.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img"><img src="../www/img/guavas.png"></div>
+                    <div class="w-100">
+                        <div class="flex h-60">
+                            <div class="description_text">
+                                <span class="t-title">Guavas</span><span class="t-location">from Guatemala</span>
+                            </div>
+                            <div class="price_tag"><div class="tag"><span>£0.40 each</span></div></div>
+                        </div>
+                        <div class="item_description">
+                            Guavas are common tropical fruit cultivated in many tropical and subtropical regions,
+                            originating from an area thought to extend from Mexico or Central America.
+                        </div>
+                    </div>
+                </div>
+                <div id="dialog">
+                    <div class="dialog_body">
+                        <img id="dialog_img">
+                        <h4 id="dialog_title_description"></h4>
+                        <div>
+                            <span id="dialog_item_description">
+                            </span>
+                        </div>
+                        <div class="float-right"><h4 id="dialog_price"></h4></div>
+                        <button id="buy_now">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </main>
     </body>
 </html>
